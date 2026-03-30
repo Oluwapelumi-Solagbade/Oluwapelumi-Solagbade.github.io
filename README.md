@@ -4,7 +4,7 @@ Personal academic website for **Oluwapelumi Samuel Solagbade**, aspiring physici
 
 Built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com/alshedivat/al-folio) theme, hosted on GitHub Pages.
 
-🌐 **Live site:** https://vulcan-spark.github.io
+🌐 **Live site:** https://Oluwapelumi-S.github.io
 
 ---
 
