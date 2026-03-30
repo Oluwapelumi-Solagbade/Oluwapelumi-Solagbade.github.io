@@ -1,0 +1,106 @@
+# Site Settings
+title: Oluwapelumi Solagbade
+first_name: Oluwapelumi
+middle_name: Samuel
+last_name: Solagbade
+email: solagbadepelumi@gmail.com
+description: >
+  Aspiring physician-scientist dedicated to bridging the gap between clinical neurology
+  and basic science. MBChB Student, Obafemi Awolowo University.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: neuroscience, computational neuroscience, spatial transcriptomics, physician-scientist, Africa
+lang: en
+icon: ⚗️
+
+url: https://vulcan-spark.github.io
+baseurl:
+
+# Theme Settings
+repo_theme_color: dodgerblue
+repo_trophies:
+  enabled: true
+
+# Author Info
+author:
+  name: Oluwapelumi Solagbade
+  avatar: /assets/img/profile.jpeg
+  bio: Aspiring Physician-Scientist · Computational Neuroscientist · MBChB Student, OAU Nigeria
+  location: Ile Ife, Osun, Nigeria
+  email: solagbadepelumi@gmail.com
+  github: Vulcan-Spark
+  linkedin: oluwapelumi-solagbade
+  orcid: 0009-0005-7748-356X
+
+# Jekyll Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:title/
+paginate: 10
+timezone: Africa/Lagos
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+
+# Collections
+collections:
+  news:
+    defaults:
+      layout: post
+    output: false
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      related_posts: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+      comments: false
+
+# Scholar / Publications
+scholar:
+  last_name: [Solagbade]
+  first_name: [Oluwapelumi, O.]
+  style: apa
+  locale: en
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+
+# Social
+serve_og_meta: false
+og_image:
+
+# Analytics
+google_analytics:
+
+# Comments
+disqus_shortname:
+comments: false
